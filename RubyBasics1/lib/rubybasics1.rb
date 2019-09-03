@@ -8,6 +8,9 @@ end
 # Part II
 def max_2_sum arr
   # YOUR CODE HERE
+return arr.max(2).sum
+  
+  
 end
 
 # Part III
