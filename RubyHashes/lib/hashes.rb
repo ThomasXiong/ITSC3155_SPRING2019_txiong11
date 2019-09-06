@@ -40,5 +40,23 @@ end
 
 # Part III
 def hash_2_array contacts
-    # YOUR CODE HERE
+    
+    finalArr = []
+    emailArr = []
+    phoneArr = []
+    nameArr = []
+    
+    
+    contacts.each do |k, v|
+        key2 = :"#{k}"
+        
+        emailArr << contacts[key2][:email]
+        phoneArr << contacts[key2][:phone]
+        nameArr << "#{k}"
+    end
+    finalArr << emailArr
+    finalArr << phoneArr
+    finalArr << nameArr
+    
+    return finalArr
 end
