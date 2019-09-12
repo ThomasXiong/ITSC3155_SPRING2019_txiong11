@@ -2,8 +2,8 @@
 
 # Part I
 def hello(name)
-  # YOUR CODE HERE
-end
+   "Hello, #{name}"
+  end
 
 # Part II
 def starts_with_consonant? s
