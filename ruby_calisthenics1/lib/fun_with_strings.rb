@@ -1,14 +1,19 @@
 module FunWithStrings
   def palindrome?
     
-    g = self.downcase.gsub /[^a-z0-9]+/i, ''
-    g == g.reverse
+    newPalindrome = self.downcase.gsub /[^a-z0-9]+/i, ''
+    newPalindrome == newPalindrome.reverse
    
    
     
   end
   def count_words
-    # your code here
+    
+   newHash = Hash.new(0)
+    g = self.downcase.gsub /[^a-z0-9 ]+/i, ''
+    g.split.each { |x| newHash[x] = newHash[x] + 1 }
+    newHash
+
   end
   def anagram_groups
     # your code here
