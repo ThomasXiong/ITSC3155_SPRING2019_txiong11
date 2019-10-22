@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "project",
+=======
+  "name": "practice",
+>>>>>>> 13f2253ac516ac9352433e410ea9bba29a92d04f
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",

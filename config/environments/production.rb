@@ -58,7 +58,11 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
+<<<<<<< HEAD
   # config.active_job.queue_name_prefix = "project_production"
+=======
+  # config.active_job.queue_name_prefix = "practice_production"
+>>>>>>> 13f2253ac516ac9352433e410ea9bba29a92d04f
 
   config.action_mailer.perform_caching = false
 
